@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="details.css">
+    <title>Student Details</title>
+</head>
+<body>
+    <header>
+        <h1>Student Details</h1>
+    </header>
+    <main class="student-container">
+        
+        <section class="student-info">
+           
+            <div class="student-photo">
+                <!-- JavaScript will render the student-photo here -->
+            </div>
+            <div class="student-details">
+                <a href="#" id="extracurricularLink" class="extracurricular-link">Extracurricular Activities</a>
+                <!-- JavaScript will render the student-details here -->
+                
+            </div>
+        </section>
+        <!-- Inside the <header> section -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- <a href="extracurricular.html?id=${student.id}" class="extracurricular-link">Extracurricular Activities</a> -->
+    </ul>
+</nav>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <div class="certificates-list">
+                <!-- JavaScript will render certification images and names here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Directory</p>
+    </footer>
+    <script src="student_data.json"></script>
+    <script src="details.js"></script>
+</body>
+</html>
